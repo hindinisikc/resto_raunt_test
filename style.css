@@ -1,0 +1,52 @@
+
+body {
+    background-color: #20241d;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    position: absolute;
+    top: 50px;
+}
+
+
+#logo {
+    color: #be7f57;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    font-size: 48px;
+    font-weight: lighter;
+    text-align: center;
+    flex-grow: 1;
+    margin-top: 100px;
+}
+
+
+nav {
+    display: flex;
+    gap: 250px;
+}
+
+button {
+    color: #fbedd1;
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+button:hover {
+    color: #be7f57;
+}
